@@ -1,0 +1,15 @@
+{
+  "name": "crafterina.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "start": "lite-server",
+  "build:css": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
